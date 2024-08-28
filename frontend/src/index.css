@@ -109,7 +109,31 @@ nav {
   align-items: center;
 }
 nav a {
-  margin-left: 10px;
+  margin-left: 20px; /* Space between the nav links */
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Example link color */
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff; /* Link color on hover */
+}
+
+nav button {
+  background: #fff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+}
+
+/* logo */
+.logo {
+  width: 150px; /* Adjust as needed */
+  height: 80px;  /* Maintain aspect ratio */
 }
 /* auth forms */
 form.signup, form.login {
